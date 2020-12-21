@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ButtonInsideImage from './buttonInsideImage';
 import img1 from './sc.jpg';
 
 class Qualifications extends Component {
@@ -13,31 +14,25 @@ class Qualifications extends Component {
         </div>
         <div className="row no-gutters">
           <div className="col">
-            <div style={{ backgroundImage: 'url(' + img1 + ')' }}>
-              <div className="img-button-gradient">
-                <button className="btn btn-outline-light img-button">
-                  CV / Resume
-                </button>
-              </div>
-            </div>
+            <ButtonInsideImage
+              imgSrc={img1}
+              imgAttachment="fixed"
+              imgSize="center"
+            />
           </div>
           <div className="col">
-            <div style={{ backgroundImage: 'url(' + img1 + ')' }}>
-              <div className="img-button-gradient">
-                <button className="btn btn-outline-light img-button">
-                  CV / Resume
-                </button>
-              </div>
-            </div>
+            <ButtonInsideImage
+              imgSrc={img1}
+              imgAttachment="fixed"
+              imgSize="center"
+            />
           </div>
           <div className="col">
-            <div style={{ backgroundImage: 'url(' + img1 + ')' }}>
-              <div className="img-button-gradient">
-                <button className="btn btn-outline-light img-button">
-                  CV / Resume
-                </button>
-              </div>
-            </div>
+            <ButtonInsideImage
+              imgSrc={img1}
+              imgAttachment="fixed"
+              imgSize="center"
+            />
           </div>
         </div>
       </div>
