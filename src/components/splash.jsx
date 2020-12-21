@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import img from './sam.jpg';
+import img from '../resources/sam.jpg';
 import Typist from 'react-typist';
 
 class Splash extends Component {

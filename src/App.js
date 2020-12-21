@@ -1,5 +1,5 @@
 import './App.css';
-
+import './extra.css';
 import Nav from './components/nav';
 import Splash from './components/splash';
 import About from './components/about';

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import img from './sam.jpg'
+import img from '../resources/sam.jpg'
 
 class About extends Component {
   state = {};

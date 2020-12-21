@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ButtonInsideImage from './buttonInsideImage';
-import img1 from './sc.jpg';
+import img1 from '../resources/sc.jpg';
 
 class Qualifications extends Component {
   state = {};
