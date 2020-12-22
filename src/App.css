@@ -14,7 +14,6 @@
 }
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,21 +33,43 @@
   }
 }
 
-.sam-photo {
-  max-width: calc(5vw + 5vh + 15vmin);
-  margin: auto;
-}
-.header-text {
-  margin: 30px auto auto;
-}
-.splashContainer {
-  margin: 12.5% auto auto;
-}
-.img-button-gradient {
-  background-image: linear-gradient(to top, rgba(52, 58, 64, 0), rgba(52, 58, 64, 0), rgba(52, 58, 64, 0), rgba(52, 58, 64, 0),rgba(52, 58, 64,1))
-}
-.img-button {
-  margin-top: 230px;
-  margin-bottom: 275px;
+.section {
+  min-height: calc(100vh - 56px);
 }
 
+.social-top {
+  display: none;
+}
+
+.social-bottom {
+  display: block;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.buttonInsideImage {
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 4vh;
+  padding-bottom: 8vh;
+}
+
+@media (min-width: 992px) {
+  .img-button-responsive {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .social-top {
+    display: block;
+  }
+
+  .social-bottom {
+    display: none;
+  }
+
+  .buttonInsideImage {
+    padding-top: 33vh;
+    padding-bottom: 33vh;
+  }
+}

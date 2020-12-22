@@ -4,15 +4,15 @@ class ProjectCard extends Component {
   state = {};
   render() {
     return (
-      <div className="card m-20">
+      <div className="card" style={{height:'50vh'}}>
         <h5 className="card-header">{this.props.title}</h5>
         <div className="card-body">
           <p className="card-text">{this.props.descrp}</p>
-          <div className="p-2">
+          <div>
             <img
               src={this.props.imgSrc}
               alt={this.props.imgAlt}
-              className="img-fluid"
+              style={{width:'calc(5vw + 5vh + 20vmin)'}}
             />
           </div>
           <a 

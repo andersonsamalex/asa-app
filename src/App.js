@@ -11,11 +11,11 @@ import Footer from './components/footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header" style={{ marginBottom: '-51px' }}>
+      <header className="App-header">
         <Splash />
       </header>
       <Nav />
-      <section className="About-Section" style={{ margin: '50px' }}>
+      <section className="About-Section">
         <About />
       </section>
       <section className="Qualifications-Section">

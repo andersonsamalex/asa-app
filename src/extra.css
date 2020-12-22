@@ -1,6 +1,6 @@
 /*full margins 10-100px*/
 .m-auto {
- margin: auto;
+  margin: auto;
 }
 .m-10 {
   margin: 10px;
@@ -35,8 +35,8 @@
 
 /*top margins 10-100px*/
 .mt-auto {
-    margin-top: auto;
-   }
+  margin-top: auto;
+}
 .mt-10 {
   margin-top: 10px;
 }
@@ -70,8 +70,8 @@
 
 /*bottom margins 10-100px*/
 .mb-auto {
-    margin-bottom: auto;
-   }
+  margin-bottom: auto;
+}
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -105,8 +105,8 @@
 
 /*left margins 10-100px*/
 .ml-auto {
-    margin-left: auto;
-   }
+  margin-left: auto;
+}
 .ml-10 {
   margin-left: 10px;
 }
@@ -140,8 +140,8 @@
 
 /*right margins 10-100px*/
 .mr-auto {
-    margin-right: auto;
-   }
+  margin-right: auto;
+}
 .mr-10 {
   margin-right: 10px;
 }
@@ -175,9 +175,9 @@
 
 /*horizontal margins 10-100px*/
 .mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-   }
+  margin-left: auto;
+  margin-right: auto;
+}
 .mx-10 {
   margin-left: 10px;
   margin-right: 10px;
@@ -221,9 +221,9 @@
 
 /*vertical margins 10-100px*/
 .my-auto {
-    margin-top: auto;
-    margin-bottom: auto;
-   }
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -267,8 +267,8 @@
 
 /*full padding 10-100px*/
 .p-auto {
-    padding: auto;
-   }
+  padding: auto;
+}
 .p-10 {
   padding: 10px;
 }
@@ -302,8 +302,8 @@
 
 /*top pargins 10-100px*/
 .pt-auto {
-    padding-top: auto;
-   }
+  padding-top: auto;
+}
 .pt-10 {
   padding-top: 10px;
 }
@@ -337,8 +337,8 @@
 
 /*bottom paddings 10-100px*/
 .pb-auto {
-    padding-bottom: auto;
-   }
+  padding-bottom: auto;
+}
 .pb-10 {
   padding-bottom: 10px;
 }
@@ -372,8 +372,8 @@
 
 /*left paddings 10-100px*/
 .pl-auto {
-    padding-left: auto;
-   }
+  padding-left: auto;
+}
 .pl-10 {
   padding-left: 10px;
 }
@@ -407,8 +407,8 @@
 
 /*right paddings 10-100px*/
 .pr-auto {
-    padding-right: auto;
-   }
+  padding-right: auto;
+}
 .pr-10 {
   padding-right: 10px;
 }
@@ -442,9 +442,9 @@
 
 /*horizontal paddings 10-100px*/
 .px-auto {
-    padding-left: auto;
-    padding-right: auto;
-  }
+  padding-left: auto;
+  padding-right: auto;
+}
 .px-10 {
   padding-left: 10px;
   padding-right: 10px;
@@ -488,9 +488,9 @@
 
 /*vertical paddings 10-100px*/
 .py-auto {
-    padding-top: auto;
-    padding-bottom: auto;
-  }
+  padding-top: auto;
+  padding-bottom: auto;
+}
 .py-10 {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -534,137 +534,144 @@
 
 /* Height 10-200px*/
 .h10 {
-    height: 10px;
+  height: 10px;
 }
 .h20 {
-    height: 20px;
+  height: 20px;
 }
 .h30 {
-    height: 30px;
+  height: 30px;
 }
 .h40 {
-    height: 40px;
+  height: 40px;
 }
 .h50 {
-    height: 50px;
+  height: 50px;
 }
 .h60 {
-    height: 60px;
+  height: 60px;
 }
 .h70 {
-    height: 70px;
+  height: 70px;
 }
 .h80 {
-    height: 80px;
+  height: 80px;
 }
 .h90 {
-    height: 90px;
+  height: 90px;
 }
 .h100 {
-    height: 100px;
+  height: 100px;
 }
 .h110 {
-    height: 110px;
+  height: 110px;
 }
 .h120 {
-    height: 120px;
+  height: 120px;
 }
 .h130 {
-    height: 130px;
+  height: 130px;
 }
 .h140 {
-    height: 140px;
+  height: 140px;
 }
 .h150 {
-    height: 150px;
+  height: 150px;
 }
 .h160 {
-    height: 160px;
+  height: 160px;
 }
 .h170 {
-    height: 170px;
+  height: 170px;
 }
 .h180 {
-    height: 180px;
+  height: 180px;
 }
 .h190 {
-    height: 190px;
+  height: 190px;
 }
 .h200 {
-    height: 200px;
+  height: 200px;
 }
 
 /* Width 10-200px*/
 .w10 {
-    width: 10px;
+  width: 10px;
 }
 .w20 {
-    width: 20px;
+  width: 20px;
 }
 .w30 {
-    width: 30px;
+  width: 30px;
 }
 .w40 {
-    width: 40px;
+  width: 40px;
 }
 .w50 {
-    width: 50px;
+  width: 50px;
 }
 .w60 {
-    width: 60px;
+  width: 60px;
 }
 .w70 {
-    width: 70px;
+  width: 70px;
 }
 .w80 {
-    width: 80px;
+  width: 80px;
 }
 .w90 {
-    width: 90px;
+  width: 90px;
 }
 .w100 {
-    width: 100px;
+  width: 100px;
 }
 .w110 {
-    width: 110px;
+  width: 110px;
 }
 .w120 {
-    width: 120px;
+  width: 120px;
 }
 .w130 {
-    width: 130px;
+  width: 130px;
 }
 .w140 {
-    width: 140px;
+  width: 140px;
 }
 .w150 {
-    width: 150px;
+  width: 150px;
 }
 .w160 {
-    width: 160px;
+  width: 160px;
 }
 .w170 {
-    width: 170px;
+  width: 170px;
 }
 .w180 {
-    width: 180px;
+  width: 180px;
 }
 .w190 {
-    width: 190px;
+  width: 190px;
 }
 .w200 {
-    width: 200px;
+  width: 200px;
 }
 
 .text-justify {
   text-align: justify;
 }
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 .text-right {
-    text-align: right;
+  text-align: right;
+}
+
+.vertically-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

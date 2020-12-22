@@ -11,21 +11,20 @@ class projects extends Component {
   state = {};
   render() {
     return (
-      <div id="projects">
-        <h2 className='m-30 mt-50'>Projects</h2>
-        <div className="container mb-30">
+      <div id="projects" className='section'>
+        <h2 className='p-5'>Projects</h2>
+        <div className="container-fluid">
           <div className="row">
-            <div className="col-sm">
+            <div className="col-sm my-2" >
               <ProjectCard
                 title="MAIAR Spacecraft"
                 descrp="Conceptual design of an asteroid sample return spacecraft."
                 imgSrc={img1}
                 imgAlt="Spacecraft"
                 link={link1}
-
               />
             </div>
-            <div className="col-sm">
+            <div className="col-sm my-2">
               <ProjectCard
                 title="UH SB-90 Peregrine"
                 descrp="Group project developing a regional aircraft."
@@ -34,7 +33,7 @@ class projects extends Component {
                 link={link2}
               />
             </div>
-            <div className='col-sm'>
+            <div className='col-sm my-2'>
               <ProjectCard
               title='React.js based personal website'
               descrp='First foray into modern web development'
@@ -49,5 +48,4 @@ class projects extends Component {
     );
   }
 }
-
 export default projects;
