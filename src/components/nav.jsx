@@ -34,10 +34,11 @@ class Nav extends Component {
                   activeClass="active"
                   className="nav-link"
                   to="about"
+                  role="button"
                   spy={true}
                   smooth={true}
                   duration={500}
-                  offset={-100}
+                  offset={-50}
                 >
                   About
                 </Link>
@@ -47,6 +48,7 @@ class Nav extends Component {
                   activeClass="active"
                   className="nav-link"
                   to="qualifications"
+                  role="button"
                   spy={true}
                   smooth={true}
                   duration={500}
@@ -60,10 +62,11 @@ class Nav extends Component {
                   activeClass="active"
                   className="nav-link"
                   to="projects"
+                  role="button"
                   spy={true}
                   smooth={true}
                   duration={500}
-                  offset={-100}
+                  offset={-50}
                 >
                   Projects
                 </Link>
@@ -73,6 +76,7 @@ class Nav extends Component {
                   activeClass="active"
                   className="nav-link"
                   to="contact"
+                  role="button"
                   spy={true}
                   smooth={true}
                   duration={500}
